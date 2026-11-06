@@ -24,7 +24,7 @@ Owner settings are at the top of `tools/build.py`:
 
 ## URLs the app and App Store Connect need
 
-The app opens the privacy policy at `https://xuanvinh1997.github.io/ai-research/privacy/` (`NotebookPlus/App/LegalLinks.swift`).
+The app opens the privacy policy at `https://xuanvinh1997.github.io/scholium/privacy/` (`NotebookPlus/App/LegalLinks.swift`).
 App Store Connect currently has `https://xuanvinh1997.github.io/notebook-plus-privacy/`. **They must match.** Either serve this
 site from the `ai-research` repo (the URL then matches the shipped build), or set the App Store Connect URL to wherever you host it
 and change `LegalLinks.privacyPolicy` in the next build.
