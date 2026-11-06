@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scholium: cited answers from your papers</title>
+<meta name="description" content="Scholium is an iPad app for reading papers and asking questions. Every answer links back to the passage it came from. Free, private by default, no account.">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111213" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Scholium: cited answers from your papers">
+<meta property="og:description" content="Scholium is an iPad app for reading papers and asking questions. Every answer links back to the passage it came from. Free, private by default, no account.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="vi">Bỏ qua tới nội dung</span></a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href=""><img src="assets/icon-512.png" alt="" width="30" height="30">Scholium</a>
+    <nav class="nav" aria-label="Main"><a href="" aria-current="page"><span lang="en">Home</span><span lang="vi">Trang chủ</span></a><a href="support/"><span lang="en">Support</span><span lang="vi">Hỗ trợ</span></a><a href="privacy/"><span lang="en">Privacy</span><span lang="vi">Quyền riêng tư</span></a><a href="terms/"><span lang="en">Terms</span><span lang="vi">Điều khoản</span></a></nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en" aria-pressed="true">EN</button>
+      <button type="button" data-set="vi" aria-pressed="false">VI</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="label"><span lang="en">For iPad</span><span lang="vi">Cho iPad</span></span>
+      <h1><span lang="en">Cited answers from your papers.</span><span lang="vi">Câu trả lời có trích dẫn, từ chính bài báo của bạn.</span></h1>
+      <p class="lead"><span lang="en">Ask a question, then tap any citation to read the exact passage it came from. Answers can run on your iPad with an on-device model. No account needed.</span><span lang="vi">Đặt câu hỏi, rồi chạm vào trích dẫn để đọc đúng đoạn văn gốc. AI có thể chạy ngay trên iPad bằng model trên máy. Không cần tài khoản.</span></p>
+      <div class="cta">
+        <a class="btn btn-primary" aria-disabled="true" role="link" href="#"><span lang="en">Coming soon to the App Store</span><span lang="vi">Sắp có trên App Store</span></a>
+        <a class="btn btn-secondary" href="privacy/"><span lang="en">How your data is handled</span><span lang="vi">Dữ liệu của bạn được xử lý thế nào</span></a>
+      </div>
+      <p class="fine"><span lang="en">Free to use. No ads, no tracking. Made for iPad.</span><span lang="vi">Dùng miễn phí. Không quảng cáo, không theo dõi. Dành cho iPad.</span></p>
+    </div>
+    <figure class="answer" style="margin:0" aria-label="Example of a cited answer">
+      <div class="q"><span class="label">Q</span><span><span lang="en">Which method gave the best recall on the benchmark?</span><span lang="vi">Phương pháp nào cho độ phủ tốt nhất trên bộ chuẩn?</span></span></div>
+      <p class="a"><span lang="en">The hybrid retriever reached the highest recall, ahead of dense-only search <span class="cite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></svg>1</span>. Adding a reranker raised precision further <span class="cite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></svg>2</span>.</span><span lang="vi">Bộ truy xuất kết hợp đạt độ phủ cao nhất, vượt tìm kiếm vector thuần <span class="cite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></svg>1</span>. Thêm bước xếp hạng lại giúp tăng độ chính xác <span class="cite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/></svg>2</span>.</span></p>
+      <div class="source"><span class="label"><span lang="en">Source 1 · p. 6</span><span lang="vi">Nguồn 1 · tr. 6</span></span>
+        <span lang="en">…the hybrid retriever <mark>achieved 0.91 recall@10</mark>, compared with 0.84 for dense retrieval alone…</span>
+        <span lang="vi">…bộ truy xuất kết hợp <mark>đạt recall@10 là 0,91</mark>, so với 0,84 khi chỉ dùng truy xuất vector…</span>
+      </div>
+      <div class="verdict"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span lang="en">Claim matches this passage</span><span lang="vi">Nhận định khớp với đoạn văn này</span></div>
+    </figure>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label"><span lang="en">Why you can check it</span><span lang="vi">Vì sao bạn kiểm tra được</span></span>
+      <h2><span lang="en">Every claim points back to a page.</span><span lang="vi">Mỗi nhận định đều trỏ về một trang.</span></h2>
+      <p><span lang="en">Scholium is built so you do not have to take an answer on trust.</span><span lang="vi">Scholium được làm để bạn không phải tin câu trả lời một cách mù quáng.</span></p>
+    </div>
+    <div class="grid grid-3">
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h4v4a4 4 0 0 1-4 4"/><path d="M15 7h4v4a4 4 0 0 1-4 4"/></svg></div>
+        <h3><span lang="en">Citations point to real passages</span><span lang="vi">Trích dẫn trỏ tới đoạn văn có thật</span></h3>
+        <p><span lang="en">A citation number can only link to a passage the app found in your own sources, so it cannot point to a paper that isn't in your Book.</span><span lang="vi">Mỗi số trích dẫn chỉ liên kết được tới đoạn app tìm thấy trong nguồn của bạn, nên không thể trỏ tới bài báo không có trong Sổ.</span></p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+        <h3><span lang="en">Every answer is checked</span><span lang="vi">Mỗi câu trả lời đều được kiểm tra</span></h3>
+        <p><span lang="en">A line under each answer shows how many sources it used and flags citations that need review, weakly supported claims, and quotes that do not match the source word for word.</span><span lang="vi">Một dòng dưới mỗi câu trả lời cho biết đã dùng bao nhiêu nguồn, và cảnh báo trích dẫn cần xem lại, nhận định chưa đủ căn cứ, câu trích không khớp từng chữ.</span></p></article>
+      <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg></div>
+        <h3><span lang="en">It says when evidence is missing</span><span lang="vi">App nói thẳng khi thiếu bằng chứng</span></h3>
+        <p><span lang="en">Ask about your sources and find nothing relevant, and it says so instead of guessing. Answers from the model's general knowledge say &ldquo;No sources used&rdquo;.</span><span lang="vi">Hỏi về nguồn mà không có đoạn nào liên quan, app sẽ nói rõ thay vì đoán. Câu trả lời từ kiến thức chung của model ghi &ldquo;Không dùng nguồn&rdquo;.</span></p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label"><span lang="en">What is inside</span><span lang="vi">Bên trong có gì</span></span>
+      <h2><span lang="en">From reading to presenting, in one place.</span><span lang="vi">Từ đọc tới trình bày, trong một nơi.</span></h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card"><span class="label">01</span><h3><span lang="en">Read and annotate</span><span lang="vi">Đọc và chú thích</span></h3>
+        <ul><li><span lang="en">PDF reader built for iPad, with highlighter, pen and page notes</span><span lang="vi">Trình đọc PDF cho iPad: bút tô sáng, bút viết, ghi chú theo trang</span></li>
+        <li><span lang="en">Explain, translate or ask about selected text</span><span lang="vi">Giải thích, dịch hoặc hỏi về đoạn đã chọn</span></li>
+        <li><span lang="en">Scan paper with the camera and recognize text</span><span lang="vi">Quét giấy bằng camera và nhận dạng chữ</span></li></ul></article>
+      <article class="card"><span class="label">02</span><h3><span lang="en">Find papers</span><span lang="vi">Tìm bài báo</span></h3>
+        <ul><li><span lang="en">One search box for OpenAlex, arXiv, Crossref, PubMed and more</span><span lang="vi">Một ô tìm kiếm cho OpenAlex, arXiv, Crossref, PubMed và hơn nữa</span></li>
+        <li><span lang="en">No account or API key</span><span lang="vi">Không cần tài khoản hay API key</span></li>
+        <li><span lang="en">Import and export .bib and .ris files</span><span lang="vi">Nhập và xuất file .bib và .ris</span></li></ul></article>
+      <article class="card"><span class="label">03</span><h3><span lang="en">Think it through</span><span lang="vi">Suy ngẫm và ghi chép</span></h3>
+        <ul><li><span lang="en">Handwritten notebooks for Apple Pencil</span><span lang="vi">Sổ viết tay cho Apple Pencil</span></li>
+        <li><span lang="en">Save any answer to a note, citations included</span><span lang="vi">Lưu câu trả lời thành ghi chú, giữ nguyên trích dẫn</span></li>
+        <li><span lang="en">A concept map of concepts, claims, methods and gaps</span><span lang="vi">Bản đồ khái niệm, nhận định, phương pháp và khoảng trống</span></li></ul></article>
+      <article class="card"><span class="label">04</span><h3><span lang="en">Present and study</span><span lang="vi">Trình bày và ôn tập</span></h3>
+        <ul><li><span lang="en">Turn evidence into slide decks and review cards</span><span lang="vi">Biến bằng chứng thành slide và thẻ ôn tập</span></li>
+        <li><span lang="en">Present full screen with notes and a timer</span><span lang="vi">Trình chiếu toàn màn hình kèm ghi chú và đồng hồ</span></li>
+        <li><span lang="en">Export a Book as Markdown, PDF or ZIP</span><span lang="vi">Xuất cả Sổ ra Markdown, PDF hoặc ZIP</span></li></ul></article>
+      <article class="card"><span class="label">05</span><h3><span lang="en">Your Office files</span><span lang="vi">File Office của bạn</span></h3>
+        <ul><li><span lang="en">Open Word, Excel and PowerPoint files to read them</span><span lang="vi">Mở file Word, Excel, PowerPoint để đọc</span></li>
+        <li><span lang="en">Cite them in answers</span><span lang="vi">Trích dẫn chúng trong câu trả lời</span></li>
+        <li><span lang="en">Editing and saving is coming with Pro</span><span lang="vi">Sửa và lưu file sẽ có trong bản Pro</span></li></ul></article>
+      <article class="card"><span class="label">06</span><h3><span lang="en">Choose your model</span><span lang="vi">Chọn model của bạn</span></h3>
+        <ul><li><span lang="en">Several on-device models, from about 0.6&nbsp;GB</span><span lang="vi">Nhiều model trên máy, từ khoảng 0,6&nbsp;GB</span></li>
+        <li><span lang="en">Or bring your own OpenAI or Anthropic key, Book by Book</span><span lang="vi">Hoặc dùng API key OpenAI, Anthropic của riêng bạn, từng Sổ</span></li>
+        <li><span lang="en">Math is typeset properly in answers</span><span lang="vi">Công thức toán hiển thị chuẩn trong câu trả lời</span></li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="panel-dark">
+      <div>
+        <span class="label"><span lang="en">Private by default</span><span lang="vi">Riêng tư theo mặc định</span></span>
+        <h2><span lang="en">Your library stays on your iPad.</span><span lang="vi">Thư viện của bạn ở lại trên iPad.</span></h2>
+        <p><span lang="en">No account, no ads, no analytics SDKs and no tracking. Searches and downloads only run when you start them.</span><span lang="vi">Không tài khoản, không quảng cáo, không SDK phân tích, không theo dõi. Tìm kiếm và tải về chỉ chạy khi bạn khởi động.</span></p>
+        <p style="margin-top:20px"><a href="privacy/"><span lang="en">Read the full privacy policy</span><span lang="vi">Đọc toàn bộ chính sách quyền riêng tư</span> →</a></p>
+      </div>
+      <ul class="facts">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span lang="en">With an on-device model, your questions and documents are not sent to an AI provider.</span><span lang="vi">Với model trên máy, câu hỏi và tài liệu của bạn không được gửi tới nhà cung cấp AI.</span></span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span lang="en">Every new Book starts in &ldquo;On this device&rdquo; mode.</span><span lang="vi">Mọi Sổ mới đều bắt đầu ở chế độ &ldquo;Trên thiết bị này&rdquo;.</span></span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span lang="en">API keys stay in this iPad's Keychain and never sync.</span><span lang="vi">API key nằm trong Keychain của iPad này và không bao giờ đồng bộ.</span></span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span lang="en">An automatic iCloud backup goes to your own iCloud, and you can turn it off in Settings.</span><span lang="vi">Bản sao lưu iCloud tự động đi vào iCloud của chính bạn, và bạn có thể tắt trong Cài đặt.</span></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label"><span lang="en">Free, with Pro coming later</span><span lang="vi">Miễn phí, bản Pro sẽ có sau</span></span>
+      <h2><span lang="en">Use it free. More advanced tools are on the way.</span><span lang="vi">Dùng miễn phí. Các công cụ nâng cao đang được chuẩn bị.</span></h2>
+    </div>
+    <div class="grid grid-2">
+      <article class="card"><span class="label"><span lang="en">Free</span><span lang="vi">Miễn phí</span></span>
+        <div class="price">$0</div>
+        <ul><li><span lang="en">Reading, cited answers and paper search</span><span lang="vi">Đọc, hỏi đáp có trích dẫn và tìm bài báo</span></li>
+        <li><span lang="en">Notes, concept map, slides, review cards and exports</span><span lang="vi">Ghi chú, bản đồ khái niệm, slide, thẻ ôn tập và xuất file</span></li>
+        <li><span lang="en">Use your own OpenAI or Anthropic API key</span><span lang="vi">Dùng API key OpenAI hoặc Anthropic của riêng bạn</span></li></ul></article>
+      <article class="card"><span class="label">Scholium Pro</span>
+        <div class="price"><small><span lang="en">Coming soon</span><span lang="vi">Sắp có</span></small></div>
+        <ul><li><span lang="en">Edit and save Word, Excel and PowerPoint files</span><span lang="vi">Sửa và lưu file Word, Excel, PowerPoint</span></li>
+        <li><span lang="en">Editable PowerPoint export and Beamer to PDF</span><span lang="vi">Xuất PowerPoint chỉnh sửa được và Beamer ra PDF</span></li>
+        <li><span lang="en">External MCP servers, your own skills and web-search keys</span><span lang="vi">Máy chủ MCP bên ngoài, skill và khoá tìm kiếm web do bạn tự thêm</span></li></ul>
+        <p style="margin-top:14px;font-size:13px"><span lang="en">Not available yet. The core app stays free.</span><span lang="vi">Chưa có. Phần cốt lõi của app vẫn miễn phí.</span></p></article>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div>
+      <a class="brand" href="" style="padding:0"><img src="assets/icon-512.png" alt="" width="30" height="30">Scholium</a>
+      <p><span lang="en">Read your papers, ask questions, and check every answer against the page it came from.</span><span lang="vi">Đọc bài báo, đặt câu hỏi, và kiểm tra từng câu trả lời với đúng trang nó đến từ.</span></p>
+      <p><span lang="en">Scholium helps you read and reason, but it can still be wrong. Open the citation before you rely on a claim.</span><span lang="vi">Scholium giúp bạn đọc và lập luận, nhưng vẫn có thể sai. Hãy mở trích dẫn trước khi dựa vào một nhận định.</span></p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="support/"><span lang="en">Support</span><span lang="vi">Hỗ trợ</span></a>
+      <a href="privacy/"><span lang="en">Privacy policy</span><span lang="vi">Chính sách quyền riêng tư</span></a>
+      <a href="terms/"><span lang="en">Terms</span><span lang="vi">Điều khoản</span></a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
